@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+
+        <!-- Logo -->
+        <nav>
+            <img src="images/logo.png" class="logo">
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Text -->
+        <div class="content">
+            <p>UI/UX Designer</p>
+            <h1>Hello, I'm <span>Yash</span></h1>
+            <!-- <p>Frontend Developer</p> -->
+
+            <a href="#">Hire Me</a>
+        </div>
+
+    </header>
+    <!-- -------------------ABOUT-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        👨‍🎓 I'm a Computer Science student passionate about creating modern and responsive web
+                        applications.
+                        I enjoy learning new technologies and improving my development skills every day.
+                    </p>
+
+                    <p>
+                        💻 I love building real-world projects using HTML, CSS, Tailwind CSS, JavaScript, and React.
+                    </p>
+
+                    <p>
+                        🚀 Currently, I'm focusing on frontend development and working on creative portfolio & web
+                        projects.
+                    </p>
+
+                    <p>
+                        🎯 My goal is to become a skilled Full Stack Developer and build projects that help people in
+                        real life.
+                    </p>
+
+                    <p>
+                        📚 Apart from coding, I enjoy exploring new tech, watching tutorials, and learning about AI &
+                        modern design.
+                    </p>
+
+                    <div class="tab-titles">
+
+                        <p class="tab-links active-link" onclick="opentab('skills', this)">
+                            Skills
+                        </p>
+
+                        <p class="tab-links" onclick="opentab('Experience', this)">
+                            Experience
+                        </p>
+
+                        <p class="tab-links" onclick="opentab('Education', this)">
+                            Education
+                        </p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web/App Interface</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>UI?UX</span><br>XYZ</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Class 12th</span><br>2023<br>Maths,Physics,Chenistry<br> Percentile Reank- 60%
+                            </li>
+                            <li><span>Chandigarh University</span><br>2024-present<br> Computer Science And Enginerring
+                            </li>
+                            <li><span>Chndigarh University</span><br>2024-2028<br>Computer Science<br>CGPA: 6.68/10</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum perspiciatis soluta sapiente
+                        consequatur adipisci rem, rerum facilis quisquam laudantium nobis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum perspiciatis soluta sapiente
+                        consequatur adipisci rem, rerum facilis quisquam laudantium nobis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum perspiciatis soluta sapiente
+                        consequatur adipisci rem, rerum facilis quisquam laudantium nobis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------Portfolio---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.jpg" alt="">
+                    <div class="layer">
+                        <h3>E-commerce website</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, voluptas!</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Food Delivery App</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, consequatur?</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="images/work3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, ipsum?</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- -----------Contact---------- -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> kaushikyash5274@email.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 8053925673</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/yashh_4725/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/yashkumar04/"><i class="fa-brands fa-linkedin"></i></a>
+                        <!-- <a href=""><i class="fa-brands fa-facebook"></i></a> -->
+                    </div>
+                    <a href="images/My CV.pdf" download   class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea type="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="copyright">
+            <p>© Yash Kumar</p>
+        </div> -->
+     </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname, element) {
+
+            // remove active class from all tab links
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            // hide all tab contents
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            // add active class to clicked tab
+            element.classList.add("active-link");
+
+            // show selected tab content
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+</body>
+
+</html>
